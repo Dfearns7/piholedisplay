@@ -135,8 +135,8 @@ def update(epd):
         draw_black.text((14, height - 10), u"↻: ", font=font, fill=fill_color)
         draw_black.text((24, height - 8), strftime("%H:%M", gmtime()), font=font_debug, fill=fill_color)
 
-        epd.display(epd.getbuffer(frame_black.transpose(PIL.Image.ROTATE_90)),
-                          epd.getbuffer(frame_red.transpose(PIL.Image.ROTATE_90)))
+        epd.display(epd.getbuffer(frame_black.transpose(PIL.Image.ROTATE_180)),
+                          epd.getbuffer(frame_red.transpose(PIL.Image.ROTATE_180)))
         sleep_sec = 10 * 60
         logging.info("sleeping {0} sec ({1} min) at {1}".format(sleep_sec, sleep_sec / 60,
                                                          strftime("%H:%M", gmtime())))
