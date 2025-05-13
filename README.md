@@ -23,4 +23,6 @@ make piholedisplay
 ## Credit
 [Aeonstrife](https://github.com/Aeonstrife/piholedisplay)
 
-![Pi Hole stats](pic.png)
+Pi Hole stats V1             |  Pi Hole stats
+:-------------------------:|:-------------------------:
+![Pi Hole stats v1](picV1.png)  |  ![Pi Hole stats](pic.png)
